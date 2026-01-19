@@ -1,13 +1,1 @@
-[
-  { "id": 1, "name": "Alice Johnson", "age": 25, "city": "New York" },
-  { "id": 2, "name": "Bob Smith", "age": 30, "city": "Los Angeles" },
-  { "id": 3, "name": "Charlie Brown", "age": 28, "city": "Chicago" },
-  { "id": 4, "name": "Diana Prince", "age": 32, "city": "San Francisco" },
-  { "id": 5, "name": "Ethan Miller", "age": 27, "city": "Seattle" },
-  { "id": 6, "name": "Fiona Davis", "age": 35, "city": "Boston" },
-  { "id": 7, "name": "George Wilson", "age": 40, "city": "Dallas" },
-  { "id": 8, "name": "Hannah Lee", "age": 22, "city": "San Diego" },
-  { "id": 9, "name": "Ivan Petrov", "age": 29, "city": "Miami" },
-  { "id": 10, "name": "Julia Roberts", "age": 34, "city": "Denver" },
-   { "id": 11, "name": "kanika", "age": 20, "city": "chennai" }
-]
+[{"id":3,"name":"Charlie Brown","age":28,"city":"Chicago"},{"id":4,"name":"Diana Prince","age":32,"city":"San Francisco"},{"id":6,"name":"Fiona Davis","age":35,"city":"Boston"},{"id":8,"name":"Hannah Lee","age":22,"city":"San Diego"},{"id":9,"name":"Ivan Petrov","age":29,"city":"Miami"}]
