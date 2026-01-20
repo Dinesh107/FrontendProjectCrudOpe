@@ -59,12 +59,22 @@ function App() {
 
   const closeModal = () => {
     setIsModalOpen(false);
+    getAllUsers();
   }
 
   // handledata
 
   const handleData = (e) => {
      setUserData({...userData, [e.target.name]: e.target.value})
+  }
+
+  // handleSubmit
+
+  const handleSubmit = async (e) => {
+     e.preventDefault();
+     await axios.post("http://localhost:8000/users", userData).then((res) => {
+      console.log(res);
+     })
   }
 
   return (
@@ -133,7 +143,7 @@ function App() {
                   <label htmlFor="city">City </label>
                   <input type="text" value={userData.city} onChange={handleData} name="city" id="city" />
                 </div>
-                <button className="btn green" >Add User</button>
+                <button onClick={handleSubmit} className="btn green" >Add User</button>
               </div>
             </div>
           )}
